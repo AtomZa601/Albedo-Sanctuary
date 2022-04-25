@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<title>Register|Albedo Sanctuary </title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	<body>
+		<div id=container>
+			<form class="form" action="/regisDB" method="post" accept-charset="utf-8">
+				<fieldset>
+					<div id = content1>
+					<legend> Register </legend>
+					Username:<input type="text" name="username" value="" placeholder="" required><br>
+					Email:<input type="text" name="email" value="" placeholder="" required><br>
+					Password: <input type="password" name="password" value="" placeholder=""><br>
+					<span id="errordisplay"></span><br>
+					<input type="submit" name="submit" value="Register">
+					<p>Already a user? go to</p><a href="login.html">Login</a>
+					</div>
+				</fieldset>
+			</form>
+			
+		</div>
+	
+	</body>
+</html>
